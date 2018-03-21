@@ -13,6 +13,7 @@
 		6E61841A20624E71005FB220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E61841920624E71005FB220 /* Assets.xcassets */; };
 		6E61841D20624E71005FB220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E61841B20624E71005FB220 /* LaunchScreen.storyboard */; };
 		6E61842020624E71005FB220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61841F20624E71005FB220 /* main.m */; };
+		6E61842A20625609005FB220 /* JsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61842920625609005FB220 /* JsonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6E61841C20624E71005FB220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E61841E20624E71005FB220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E61841F20624E71005FB220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E61842820625609005FB220 /* JsonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonViewController.h; sourceTree = "<group>"; };
+		6E61842920625609005FB220 /* JsonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,10 @@
 		6E61840F20624E70005FB220 /* loadAndWriteToFile */ = {
 			isa = PBXGroup;
 			children = (
+				6E618427206255BB005FB220 /* json */,
+				6E61842620625540005FB220 /* toTxt */,
 				6E61841020624E70005FB220 /* AppDelegate.h */,
 				6E61841120624E70005FB220 /* AppDelegate.m */,
-				6E61841320624E71005FB220 /* ViewController.h */,
-				6E61841420624E71005FB220 /* ViewController.m */,
 				6E61841620624E71005FB220 /* Main.storyboard */,
 				6E61841920624E71005FB220 /* Assets.xcassets */,
 				6E61841B20624E71005FB220 /* LaunchScreen.storyboard */,
@@ -69,6 +72,24 @@
 				6E61841F20624E71005FB220 /* main.m */,
 			);
 			path = loadAndWriteToFile;
+			sourceTree = "<group>";
+		};
+		6E61842620625540005FB220 /* toTxt */ = {
+			isa = PBXGroup;
+			children = (
+				6E61841320624E71005FB220 /* ViewController.h */,
+				6E61841420624E71005FB220 /* ViewController.m */,
+			);
+			path = toTxt;
+			sourceTree = "<group>";
+		};
+		6E618427206255BB005FB220 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				6E61842820625609005FB220 /* JsonViewController.h */,
+				6E61842920625609005FB220 /* JsonViewController.m */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E61842A20625609005FB220 /* JsonViewController.m in Sources */,
 				6E61841520624E71005FB220 /* ViewController.m in Sources */,
 				6E61842020624E71005FB220 /* main.m in Sources */,
 				6E61841220624E70005FB220 /* AppDelegate.m in Sources */,
